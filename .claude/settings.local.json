@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(python scripts/generate_synthetic_data.py:*)",
+      "Bash(pip install:*)",
+      "Bash(python scripts/validate_data.py:*)",
+      "Bash(python scripts/generate_crm_data.py:*)",
+      "Bash(python scripts/create_crm_sap_links.py:*)",
+      "Bash(python scripts/convert_to_parquet.py:*)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
